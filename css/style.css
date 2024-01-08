@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', 'Inter', serif;
+    padding-top: 50px;
+}
+
+/* Reusable components starts here  */
+.container {
+    max-width: 13320px;
+    width: 82%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+/* Reusable components ends here  */
+
+/* header starts here  */
+header {
+    height: 600px;
+    position: relative;
+
+
+}
+
+
+
+.banner {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    width: 82%;
+    background-size: cover;
+    margin: 0 auto;
+
+
+
+}
+
+.banner_content {
+    max-width: 632px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.banner_content h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.banner_content h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+
+}
+
+/* header ends here */
+
+/* second section All catergories starts from here  */
+
+.second_section {
+    margin-top: 120px;
+}
+
+.second_content_text h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+
+}
+
+.second_content_text p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.second_content_text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.second_content_img {
+    text-align: center;
+    padding-top: 48px;
+}
+
+/* second section All catergories ends from here  */
+
+/* Third section starts from here  */
+
+.third_section_banner {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    width: 82%;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+.third_section_content {
+    display: flex;
+    gap: 40px;
+}
+
+.third_section_content_text {
+    width: 70%;
+}
+
+.third_section_content_text h3 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-top: 126px;
+}
+
+.third_section_content_text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 0 48px 0;
+}
+
+button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    padding-bottom: 142px;
+}
+
+.third_section_content_img {
+    width: 30%;
+    padding: 68px 138px 68px 0;
+
+}
+
+
+/* Third section ends here  */
+
+/* Fourth section starts here  */
+
+.fourth_section {
+    margin-top: 120px;
+    padding-bottom: 110px;
+}
+
+
+
+.fourth_section_content {
+    max-width: 548px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+
+}
+
+.fourth_section_content p span {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+}
+
+.fourth_section_content p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 48px;
+}
+
+.btn {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+/* Fourth section ends here  */
+
+/* Fifth section starts here  */
+
+.fifth_section {
+    margin-top: 120px;
+}
+
+.fifth_sec_content_parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+
+}
+
+.fifth_sec_content1 {
+    max-width: 395px;
+}
+
+.fifth_sec_content1 p {
+    color: #F00;
+    text-align: start;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fifth_sec_content1 h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    text-align: start;
+    font-weight: 900;
+    padding-top: 16px;
+}
+
+.fifth_sec_content1 .para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 22px;
+
+
+}
+
+.fifth_sec_content2 img {
+    max-width: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 49px;
+}
+
+.fifth_sec_content3 {
+    max-width: 276px;
+}
+
+.fifth_sec_content3 p {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+
+}
+
+.fifth_sec_content3 .para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 42px;
+
+}
+
+.fifth_sec_content3 img {
+    padding-top: 43px;
+}
+
+/* Fifth section ends here  */
+
+/* Sixth section starts here  */
+
+
+.sixth_section {
+    margin-top: 120px;
+}
+
+.sixth_section_content {
+    max-width: 1068px;
+    margin: 0 auto;
+}
+
+.sixth_section_content p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.sixth_section_content h5 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 28px;
+
+}
+
+.sixth_section_content h5 span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sixth_section_content .para {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 64px;
+
+}
+
+/* Sixth section ends here  */
