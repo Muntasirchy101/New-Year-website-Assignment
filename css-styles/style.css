@@ -491,6 +491,12 @@ button {
 
 .newslater h3 {
     padding: 40px 0 22px 0;
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
 }
 
 .newslater p {
@@ -596,12 +602,20 @@ footer .footer_up_content_left p {
 .tel img {
     width: 24px;
     height: 24px;
+    
+}
+
+.tel a {
+    padding-left: 16px;
 }
 
 .web img {
     width: 24px;
     height: 24px;
 
+}
+.web a {
+    padding-left: 16px;
 }
 
 .line {
