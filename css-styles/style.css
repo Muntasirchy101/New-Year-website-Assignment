@@ -377,8 +377,11 @@ button {
 }
 
 .bottom_bg {
+    /* width: 100%;
+    bottom: 0; */
     width: 100%;
     bottom: 0;
+    z-index: 9999;
 }
 
 .bottom_bg img {
