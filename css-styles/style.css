@@ -189,6 +189,7 @@ button {
 .fourth_section_content {
     max-width: 548px;
     margin: 0 auto;
+    text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     ;
 
@@ -381,7 +382,7 @@ button {
     bottom: 0; */
     width: 100%;
     bottom: 0;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .bottom_bg img {
