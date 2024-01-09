@@ -604,8 +604,8 @@ footer .footer_up_content_left p {
 
 }
 
-hr .line {
-    border: 1px solid #fff;
+.line {
+    border: 2px solid rgba(255, 255, 255, 0.15);
 
 }
 
